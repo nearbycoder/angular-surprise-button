@@ -1,0 +1,35 @@
+{
+  "name": "angular-surprise-button",
+  "version": "1.0.0",
+  "description": "Angular 1 Surprise Button",
+  "main": "dist/angular-surprise-button.js",
+  "dependencies": {},
+  "devDependencies": {
+    "angular": "^1.6.3",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^6.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "node-sass": "^3.10.1",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^3.2.3",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "rimraf dist && webpack --bail --progress --profile"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
